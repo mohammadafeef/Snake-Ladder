@@ -26,9 +26,8 @@ public class Dice {
             @Override
             public void mouseClicked(MouseEvent e) {
                 // Handle the click event
-               
-                roll();
-            }
+                        App.turn=false;
+                }
         }
         );
         try{
