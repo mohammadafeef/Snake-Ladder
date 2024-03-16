@@ -4,5 +4,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "code-runner.runInTerminal": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.mouseWheelZoom": true,
+    "window.zoomPerWindow": true
 }

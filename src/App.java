@@ -1,10 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 
+
 public class App {
+    
         static boolean turn = true;
         static Dice dice = new Dice();
         static Board board = new Board();
+        //windows path: D:\Ubuntu\Documents\projects\SnakeNLadder\res\
+        //ubuntu path: /media/afeef/New Volume/Ubuntu/Documents/projects/SnakeNLadder/res/
         static coins red = new coins("/media/afeef/New Volume/Ubuntu/Documents/projects/SnakeNLadder/res/red.png",0);
         static coins yel = new coins("/media/afeef/New Volume/Ubuntu/Documents/projects/SnakeNLadder/res/blue.png",1);
         static JFrame f = new JFrame("test");
